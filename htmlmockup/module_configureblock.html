@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <style type="text/css">
+        #configureblock
+        {
+            height:400px;
+            width:500px;
+            border:solid 1px black;    
+        }
+        
+        #configureblock table
+        {
+            border: solid 1px black; 
+            width: 100%;   
+        }
+        
+        #configureblock table tr td:first-child
+        {
+            width:100px; 
+               
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="configureblock">
+        <h4>Block Configuration</h4>
+        
+        <table>
+            <tr>
+                <td>
+                    Select Block <input value="block id" />
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <b>Status</b>
+                </td>
+                <td>
+                    No Train Detected
+                </td>
+                <td>
+                    Operational<input type="radio" name="blockstatus" checked/>
+                    Under Maitenence<input type="radio" name="blockstatus" />
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <b>Elevation<b>
+                </td>
+                <td>
+                    block start: 0
+                </td>
+                <td>
+                    block end: 0
+                </td>
+                <td>
+                    change: 0
+                </td>
+            </tr>
+        </table>
+                  
+        <table>
+            <tr>
+                <td>
+                    <b>Allowable Direction<b>
+                </td>
+                <td>
+                    not sure here
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <b>Speed Limit<b>
+                </td>
+                <td>
+                    Current: 0
+                </td>
+                <td>
+                    Change: <input />
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <b>Power limit<b>
+                </td>
+                <td>
+                    Current: 0
+                </td>
+                <td>
+                    Change: <input />
+                </td>
+            </tr>
+        </table>
+
+
+
+    </div>
+</body>
+</html>

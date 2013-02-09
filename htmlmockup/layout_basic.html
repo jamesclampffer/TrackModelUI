@@ -1,0 +1,93 @@
+﻿
+<html>
+    <head>
+        <style type="text/css">
+            /*window style rules*/
+            #mainwindow
+            {
+                text-align:center;
+                border: solid 5px blue;    
+            }
+            #mainwindow td
+            {
+                border: solid 1px black;    
+            }
+            
+            
+            #visualization
+            {
+                min-width: 300px; /*going to be flexible about size of render panel*/    
+            }
+            
+            #visualization #trackrendering
+            {
+                border:solid 1px black;    
+            }
+            #visualization #trackrendering img
+            {
+                height: 600px;    
+            }
+            
+            /*interface style rules*/ 
+            #interfaces #graphic button
+            {
+                width:32.5%;
+            }
+            
+            #interfaces #graphic #guitoolmodule
+            {
+                    height:400px;
+                    width:500px;
+            }
+            #interfaces #commandline #terminal
+            {
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            
+    
+        </style>        
+    </head>
+    <body>
+
+        <table id="mainwindow">
+            <tr id="header">
+                <td colspan=2><h3>Track Model Interface<h3></td>
+            </tr>
+            <tr id="content">
+
+                <!-- the track rendering display here, not sure if I write this -->
+                <td id="visualization">
+                    <div id="trackrendering">
+                        <img src="trackrendering.jpg" />
+                    </div>
+                </td>
+
+                <!-- all of my tools and content in here -->
+                <td id="tools">
+                    <h4>Tools</h4>
+                    <table id="interfaces">
+                        <tr id="graphic">
+                            <td>
+                                <button>Manage Blocks</button>
+                                <button>Configure Block</button>
+                                <button>Edit Track</button>
+                                <br />
+                                <div id="guitoolmodule">
+                                    Dependent on choice from above menu.
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="commandline">
+                            <td>
+                                <textarea id="terminal" rows="10", cols="50">>command line interface</textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>

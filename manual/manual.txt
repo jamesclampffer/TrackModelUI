@@ -1,0 +1,43 @@
+
+
+
+track model user manual
+
+
+
+	block level operations
+		allowable direction
+			reading current travel directon
+				...
+			configuring enabled direction
+				...
+
+		power limit:
+			reading current power limit
+				...
+			setting a new power limit
+				...
+							
+		speed limit:
+			reading current speed limit
+				...
+			setting a new speed limit
+				...
+
+		track status
+			reading current block status
+				...
+			toggling block maitenence
+				...
+
+
+	track level operations
+		editing the track layout
+			adding track
+				add a linear track segment
+					...
+				add an arc track segment
+					...
+
+			removing track
+				...
